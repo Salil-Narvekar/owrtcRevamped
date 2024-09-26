@@ -9,17 +9,17 @@ export default defineConfig({
     open: true,
     proxy: {
       '/employee_Api': {
-        target: baseURL, // your server's base url
+        target: baseURL,
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/employee_Api/, '/employee_Api'),
       },
       '/assignment_Api': {
-        target: baseURL, // your server's base url
+        target: baseURL,
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/assignment_Api/, '/assignment_Api'),
       },
     },
   },
-  // base: '/owrtc_frontend/',
+  base: '/owrtcFrontend/',
   plugins: [react()],
 })
