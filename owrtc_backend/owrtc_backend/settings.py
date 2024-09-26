@@ -26,8 +26,8 @@ SECRET_KEY = 'django-insecure-uowspr6#3h(@4$sp(=8+#0we%=z_w)ku!d$5253*^z^(av%428
 # DEBUG = False  # for production 
 DEBUG = True     # for local
 
-# ALLOWED_HOSTS = ['localhost', 'SalilNrk.pythonanywhere.com']  # for production
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'SalilNrk.pythonanywhere.com']  # for production
+# ALLOWED_HOSTS = []
 
 
 # Application definition
